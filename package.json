@@ -1,0 +1,47 @@
+{
+  "name": "hublin-slack-integration",
+  "version": "0.0.0",
+  "description": "Connect Slack.com to Hubl.in",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://ci.open-paas.org/stash/scm/meet/hublin-slack-integration.git"
+  },
+  "keywords": [
+    "slack",
+    "webrtc",
+    "hublin",
+    "client",
+    "conference",
+    "videoconference",
+    "linagora"
+  ],
+  "author": "Linagora Folks <hublin@linagora.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.2",
+    "hublin-client": "0.0.1",
+    "q": "^1.2.0",
+    "request-promise": "^0.4.0"
+  },
+  "devDependencies": {
+    "chai": "~1.9.2",
+    "closure-linter-wrapper": "^0.2.9",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-gjslint": "^0.1.6",
+    "grunt-lint-pattern": "^0.1.4",
+    "grunt-mocha-cli": "^1.12.0",
+    "grunt-run": "~0.2.1",
+    "grunt-run-grunt": "git+https://ci.open-paas.org/stash/scm/or/grunt-run-grunt.git",
+    "grunt-shell": "^1.1.1",
+    "mocha": "~1.18.2",
+    "mockery": "~1.4.0"
+  }
+}
