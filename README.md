@@ -27,6 +27,23 @@ Once all is set, you will be able to create new video conferences from Slack
 
 Will send you back a message with the conference link.
 
+## Deploy
+
+### Heroku
+
+You can deploy on Heroku by using the Heroku button above or by using the Heroku client:
+
+    git clone [current repo]
+    cd [current repo]
+    heroku login
+    heroku create [name]
+    git push heroku master
+    heroku config:set SLACK_WEBHOOK=[URL from step 1]
+
+Once set, update the URL for the slash command on Slack.com to fit the URL of your newly deployed app
+
+    https://[name].herokuapp.com/slash
+
 ## License
 
 MIT

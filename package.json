@@ -1,6 +1,6 @@
 {
   "name": "hublin-slack-integration",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Connect Slack.com to Hubl.in",
   "main": "index.js",
   "scripts": {

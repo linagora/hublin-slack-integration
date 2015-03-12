@@ -1,0 +1,13 @@
+{
+  "name": "Hubl.in Slack Integration",
+  "description": "Integrate Hubl.in conference service with Slack.com",
+  "repository": "https://github.com/linagora/hublin-slack-integration",
+  "logo": "https://hubl.in/images/hublin_256.png",
+  "keywords": ["slack", "hublin", "videoconference"],
+  "env": {
+    "SLACK_WEBHOOK": {
+      "description": "The Slack.com incoming Webhook used to reply to request.",
+      "generator": "secret"
+    }
+  }
+}
